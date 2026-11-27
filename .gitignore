@@ -199,6 +199,15 @@ cython_debug/
 #   Learn more at https://abstra.io/docs
 .abstra/
 
+# Project-local Python environment and benchmark data.
+.venv/
+data/
+
+# Local test and package build artefacts.
+.pytest_cache/
+src/vlmlabels.egg-info/
+__pycache__/
+
 # Visual Studio Code
 #   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore that
 #   can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
